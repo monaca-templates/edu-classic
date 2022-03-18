@@ -3,7 +3,6 @@
   <name>窓の外の景色</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
-  <access origin="*"/>
   <content src="index.html"/>
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
@@ -37,8 +36,6 @@
   </feature>
   <preference name="monaca:targetFamilyiPhone" value="1"/>
   <preference name="monaca:targetFamilyiPad" value="1"/>
-  <allow-intent href="itms:*"/>
-  <allow-intent href="itms-apps:*"/>
   <allow-navigation href="*"/>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="adf11841-acde-83fd-bdad-54a88f592421"/>
